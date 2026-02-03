@@ -1,11 +1,13 @@
 import { request } from '@playwright/test';
+import 'dotenv/config';
 
 export class PokeApiService {
 
   async getPokemonEvolutionChain(pokemon: string) {
     const context = await request.newContext();
+    const apiBase = process.env.POKE_API_URL;
 
-    const pokemonResponse = await context.get(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
+    const pokemonResponse = await context.get(`${apiBase}/pokemon/${pokemon}`);
     if (pokemonResponse.status() !== 200) throw new Error('Pokemon API failed');
 
     const pokemonData = await pokemonResponse.json();
