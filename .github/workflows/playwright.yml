@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      URL_PAGE: ${{ secrets.BASE_URL }}
-      USER_NAME: ${{ secrets.USERNAME }}
+      URL_PAGE: ${{ secrets.URL_PAGE }}
+      USER_NAME: ${{ secrets.USER_NAME }}
       PASSWORD: ${{ secrets.PASSWORD }}
       POKE_API_URL: ${{ secrets.POKE_API_URL }}
 
