@@ -16,6 +16,7 @@ jobs:
       USER_NAME: ${{ secrets.USER_NAME }}
       PASSWORD: ${{ secrets.PASSWORD }}
       POKE_API_URL: ${{ secrets.POKE_API_URL }}
+      PRODUCTO_NAME: ${{ secrets.PRODUCTO_NAME }}
 
     steps:
       - uses: actions/checkout@v4
