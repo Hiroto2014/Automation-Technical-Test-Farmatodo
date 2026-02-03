@@ -1,4 +1,4 @@
-# 🤖 QA Automation - Prueba Técnica Farmatodo
+# QA Automation - Prueba Técnica Farmatodo
 
 Este proyecto contiene la implementación completa de una prueba técnica de automatización utilizando **Playwright con TypeScript**, enfocada en:
 
@@ -12,7 +12,7 @@ El objetivo principal es demostrar habilidades en automatización, arquitectura 
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Node.js
 - Playwright
@@ -23,7 +23,7 @@ El objetivo principal es demostrar habilidades en automatización, arquitectura 
 
 ---
 
-## 📦 Instalación
+## Instalación
 
 ```bash
 npm install
@@ -31,7 +31,7 @@ npx playwright install
 npm install dotenv
 ```
 
-## 🔐 Variables de entorno
+## Variables de entorno
 
 El proyecto utiliza dotenv para manejar configuraciones sensibles y de entorno.
 
@@ -46,9 +46,9 @@ PASSWORD = secret_sauce
 PRODUCTO_NAME = Sauce Labs Fleece Jacket
 ```
 
-## 🧪 Descripción general de las pruebas
+## Descripción general de las pruebas
 
-### 🔸Prueba de Integración – PokéAPI
+### Prueba de Integración – PokéAPI
 
 Esta prueba valida el consumo correcto de múltiples endpoints de la PokéAPI para obtener la cadena evolutiva del Pokémon **Squirtle**.
 
@@ -63,7 +63,7 @@ Esta prueba valida el consumo correcto de múltiples endpoints de la PokéAPI pa
 7. La lista se ordena alfabéticamente utilizando un algoritmo personalizado (Merge Sort)
 8. Se imprimen los resultados por consola
 
-### 🔸Prueba de End-to-End – SauceDemo
+### Prueba de End-to-End – SauceDemo
 
 Esta prueba automatiza un flujo completo de compra dentro del sitio de pruebas https://www.saucedemo.com
 
@@ -80,7 +80,7 @@ Flujo general:
 
 ## Datos Tecnicos
 
-### 🌐 Ejecución multi-navegador
+### Ejecución multi-navegador
 Las pruebas están configuradas para ejecutarse automáticamente en:
 - Chromium (Chrome)
 - Firefox
@@ -88,7 +88,7 @@ Las pruebas están configuradas para ejecutarse automáticamente en:
 
 Esto permite validar compatibilidad cross-browser.
 
-### 📊 Reportes
+### Reportes
 Se genera automáticamente un reporte HTML con:
 - Resultados de ejecución
 - Evidencias
