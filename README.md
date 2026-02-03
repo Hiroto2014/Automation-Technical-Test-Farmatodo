@@ -117,7 +117,7 @@ Modo visual:
 npx playwright test --headed
 ```
 
-Ver Reporte HTML de la Ejecución de las Pruebas
+Ver Reporte HTML de la Ejecución de las Pruebas Automatizadas
 ```bash
 npx playwright show-report
 ```
